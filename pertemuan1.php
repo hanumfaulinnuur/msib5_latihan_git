@@ -12,12 +12,6 @@ $hobi               = 'mengambar asal';
 
 
 <html>
-<head>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-    <title>Biodata Diri</title>
-</head>
-
 <style>
     body {
         font-family:'Times New Roman', Times, serif;
@@ -38,6 +32,13 @@ $hobi               = 'mengambar asal';
         padding-bottom: 10px;
     }
 </style>
+<head>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <title>Biodata Diri</title>
+</head>
+
+
 
 <body>
     <div class="container text-center  border shadow  mb-5 bg-body-tertiary rounded">
