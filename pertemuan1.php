@@ -9,18 +9,40 @@ $hobi               = 'mengambar asal';
 
 ?>
 
+
+
 <html>
 <head>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="asset/style.css">
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-    <title>Biodata</title>
+    <title>Biodata Diri</title>
 </head>
 
+<style>
+    body {
+        font-family:'Times New Roman', Times, serif;
+        background-color: #D9EEE1; 
+    }
+
+    .container {
+        margin-top : 50px;
+        padding : 40px
+    }
+
+    i {
+        font-size: 19px;
+    }
+
+    td{
+        padding-right: 30px;
+        padding-bottom: 10px;
+    }
+</style>
+
 <body>
-    <div class="container text-center mt-5 border shadow p-4 mb-5 bg-body-tertiary rounded">
+    <div class="container text-center  border shadow  mb-5 bg-body-tertiary rounded">
         <h1>BIODATA DIRI</h1><hr>
-        <div class="row align-items-center">
+        <div class="row">
             <div class="col-4">
             <img src="asset/123.JPG" class="img-thumbnail" alt="..." style="width: 20rem;">
             </div>
